@@ -66,11 +66,11 @@ a {
     padding-bottom: 60px;
     /*background-color: bisque;*/
 }
-#featured-image {
+#image {
     position: relative;
     width: 100%;
 }
-#featured-image img {
+#image img {
     width: 100%;
 }
 #text {
