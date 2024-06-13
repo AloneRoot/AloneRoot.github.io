@@ -445,12 +445,6 @@ a {
     font-weight: bold;
     justify-content: center;
 }
-#project_container_whitelayer {
-    position: absolute;
-    width: 100%;
-    top: 1620px;
-    background-color: red
-}
 /*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ #Programs 메뉴   ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
 #navmenu_programs {
     display: flex;
@@ -470,9 +464,59 @@ a {
     text-decoration: underline;
     color: #ff0000;
 }
-
-
-
+#programs_photoshop {
+    display: flex;
+    top: 600px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+#programs_phoimg {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+}
+#names_programs {
+    margin-left: 25px;
+    display: flex;
+    font-family: "NOTO";
+    font-weight: bold;
+    font-size: 40px;
+}
+#programs_text {
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    right: 61px;
+    bottom: 1px;
+}
+#programs_illustrator {
+    display: flex;
+    top: 950px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+#programs_illimg {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+}
+#programs_visual {
+    display: flex;
+    top: 1300px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+#programs_visimg {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    left: 100px;
+}
 /* -----------------------------------------------------------------------
 본문 영역
 ----------------------------------------------------------------------- */
