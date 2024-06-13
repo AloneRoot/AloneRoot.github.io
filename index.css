@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "NOTO";
+    src: url("fonts/NotoSansKR-VariableFont_wght.ttf");
+}
+
+html {
+    scroll-behavior: smooth; /* 스크롤 시 부드럽게 이동 */
+}
+body {
+    margin: 0; padding: 0;
+    font-family: "Pretendard-Regular";
+    /* background-color: rgb(163, 247, 219); */
+}
+a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 177px;
+    background-color: #000000;
+    z-index: 10000;
+    text-align: center;
+    color: #ffffff;
+    font-family: "NOTO";
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 155px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ#index 메뉴ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  */
+#navmenu_index {
+    position: absolute;
+    top: 205px;
+    height: 58px;
+    width: 100%;
+    font-size: 30px;
+    z-index: 10000;
+    font-family: "NOTO";
+    font-weight: bold;
+    color: #7f7f7f;
+}
+/* #navmenu 요소에 포함된 a 태그 스타일 설정 */
+
+#navmenu_index_about {
+    display: flex;
+    position: absolute;
+    font-family: 'NOTO';
+    font-size: 30px;
+    color: #000000;
+    left: 61px;
+}
+#navmenu_index_about a {
+    margin: 0 20px;
+    color: #7f7f7f;
+}
+#navmenu_index_about a:link {
+    text-decoration: none;
+}
+#navmenu_index_about a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+#navmenu_index_profile {
+    display: flex;
+    justify-content: center;
+    font-family: 'NOTO';
+    font-size: 30px;
+    color: #000000;
+}
+#navmenu_index_second {
+    display: flex;
+    position: absolute;
+    color: #7f7f7f;
+    right: 61px;
+    top: -0px;
+}
+#navmenu_index_second a {
+    margin: 0 20px;
+    color: #7f7f7f;
+}
+#navmenu_index_second a:link {
+    text-decoration: none;
+}
+#navmenu_index_second a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+#name_container {
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    width: 100%;
+}
+#name {
+    display: flex;
+    font-family: "NOTO";
+    font-size: 90px;
+    font-weight: bold;
+    justify-content: center;
+}
+#text_container {
+    position: absolute;
+    width: 80%;
+    top: 789px;
+    text-align: center;
+    background-color: #ff0000;
+}
+#index_text {
+    display: flex;
+    font-family: "NOTO";
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.text_lore_container {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+#text_left {
+    position: absolute;
+    display: flex;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1px;
+    margin-top: 5px;
+    left: 51px;
+}
+
+#text_right {
+    display: flex;
+    position: absolute;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    right: 51px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+
+.text_lore_container2 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+#text_left2 {
+    position: absolute;
+    display: flex;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1px;
+    margin-top: 5px;
+    left: 51px;
+}
+
+#text_right2 {
+    display: flex;
+    position: absolute;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    right: 51px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+.text_lore_container3 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+#text_left3 {
+    position: absolute;
+    display: flex;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1px;
+    margin-top: 5px;
+    left: 51px;
+}
+
+#text_right3 {
+    display: flex;
+    position: absolute;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    right: 51px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+.text_lore_container4 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+#text_left4 {
+    position: absolute;
+    display: flex;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1px;
+    margin-top: 5px;
+    left: 51px;
+}
+
+#text_right4 {
+    display: flex;
+    position: absolute;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    right: 51px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+.text_lore_container5 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+#text_left5 {
+    position: absolute;
+    display: flex;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1px;
+    margin-top: 5px;
+    left: 51px;
+}
+
+#text_right5 {
+    display: flex;
+    position: absolute;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    right: 51px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+
+.text_lore_container6 {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+#text_left6 {
+    position: absolute;
+    display: flex;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1px;
+    margin-top: 5px;
+    left: 51px;
+}
+
+#text_right6 {
+    display: flex;
+    position: absolute;
+    font-family: "NOTO";
+    font-size: 30px;
+    font-weight: 600;
+    color: #7f7f7f;
+    right: 51px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ#About 메뉴 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+#navmenu_about {
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding-right: 10px;
+}
+#navmenu_about a {
+    margin: 0 10px;
+    color: #000;
+}
+#navmenu_about a:link {
+    text-decoration: none;
+}
+#navmenu_about a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ #All Project 메뉴  ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+#navmenu_allproject {
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding-right: 10px;
+}
+#navmenu_allproject a {
+    margin: 0 10px;
+    color: #000;
+}
+#navmenu_allproject a:link {
+    text-decoration: none;
+}
+#navmenu_allproject a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ #Programs 메뉴   ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+#navmenu_programs {
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding-right: 10px;
+}
+#navmenu_programs a {
+    margin: 0 10px;
+    color: #000;
+}
+#navmenu_programs a:link {
+    text-decoration: none;
+}
+#navmenu_programs a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+
+
+/* -----------------------------------------------------------------------
+본문 영역
+----------------------------------------------------------------------- */
+
+#main-container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto; /* 박스(#main-container)를 뷰포트의 가로 방향 가운데로 정렬 */
+    padding-top: 200px;
+    padding-bottom: 60px;
+    /*background-color: bisque;*/
+}
+#image {
+    position: relative;
+    width: 100%;
+}
+#image img {
+    width: 100%;
+}
+#text {
+    position: relative;
+    font-family: "Pretendard-Regular";
+    font-size: 24px;
+    line-height: 180%;
+    /*background-color: blanchedalmond;*/
+}
+#copyright {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* -----------------------------------------------------------------------
+미디어 쿼리(media query) - 반응형 웹 구현
+----------------------------------------------------------------------- */
+
+/* 사용자 화면의 뷰포트(viewport) 크기가 1024px보다 작은 경우(최대 1024px) 적용 */
+@media screen and (max-width: 1024px) {
+    #header {
+        height: 100px;
+    }
+    #logo {
+        /* 로고를 가운데로 이동 */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+        font-size: 30px;
+    }
+    #navmenu {
+        /* 네비게이션 메뉴를 가운데로 이동 */
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 12px;
+        padding: 0;
+        justify-content: center;
+    }
+    #main-container {
+        width: 90%;
+        padding-top: 150px;
+    }
+    #text {
+        font-size: 16px;
+    }
+    #copyright {
+        padding-top: 40px;
+    }
+}
